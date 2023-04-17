@@ -1,5 +1,5 @@
 /*
- * Program Grafik Sudut Kemiringan Sumbu X 0-180 drj
+ * Program Bar Sudut Kemiringan Sumbu X 0-90 drj
  *
  * Koneksi Pin
  * ESP32 | MPU6050

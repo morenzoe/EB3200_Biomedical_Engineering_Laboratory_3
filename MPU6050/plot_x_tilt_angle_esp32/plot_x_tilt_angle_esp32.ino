@@ -51,7 +51,7 @@ x= RAD_TO_DEG * (atan2(-yAng, -zAng)+PI);
 //y= RAD_TO_DEG * (atan2(-xAng, -zAng)+PI);
 //z= RAD_TO_DEG * (atan2(-yAng, -xAng)+PI);
  
-if (x>0&&x<180){
+if (x>=0&&x<=180){
 Serial.println(x);
 }
 delay(40);
