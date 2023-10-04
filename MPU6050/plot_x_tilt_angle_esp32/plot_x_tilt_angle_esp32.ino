@@ -34,6 +34,7 @@ Wire.write(0x6B);
 Wire.write(0);
 Wire.endTransmission(true);
 Serial.begin(9600);
+Serial.println("Start");
 }
 void loop(){
 Wire.beginTransmission(MPU_addr);
